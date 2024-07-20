@@ -1,0 +1,15 @@
+.Login{
+    width: 100vw;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+}
+.Login .row{
+    margin: auto
+}
+.Login #rightCol{
+    padding: 10%;
+}
+.Login #rightCol .heading{
+    height: 30%;
+}

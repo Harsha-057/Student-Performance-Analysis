@@ -1,0 +1,99 @@
+.custom-modal-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 24px; /* Adjust padding as needed */
+  width: 556px;
+  height: 506px;
+  border-radius: 8px;
+  border: 1px solid var(--Stroke-light, #DEE2E6);
+  background: var(--Gray-White, #FFF);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 20px 20px 0px rgba(0, 0, 0, 0.08);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkone {
+  
+  /* Define any specific styles for your image */
+  /* width: 100px; Example width */
+  /* height: 100px; Example height */
+}
+.custom-close-button {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  z-index: 1; /* Ensure it is on top */
+}
+/* Center text elements */
+.custom-modal-body > div {
+  text-align: center;
+}
+
+/* Center buttons */
+.d-grid {
+  text-align: center;
+  margin-bottom: 14px; 
+}
+/* resultform.css */
+.custom-button-lg {
+display: flex;
+height: 44px;
+width: 500px;
+padding: 14px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+border-radius: 8px;
+
+
+}
+.botmar{
+margin-bottom:8px;
+height: 4px;
+width: 500px;
+color: var(--Secondary-Dark-Color, #54595E);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.botmari{
+height: 8px;
+margin-bottom:2px;
+color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 91.667% */
+}
+.custom-button-home {
+background-color: #043873 !important; /* Custom background color */
+border-color: #043873!important; /* Custom border color */
+color: white !important; /* Text color */
+margin-bottom: 5px;
+}
+.custom-button-generate {
+border-radius: 8px !important;
+border: 1px solid #4F4F4F !important;
+background: var(--White, #FFF) !important;
+
+color: #000 !important;
+}
+.headings{
+width: 556px;
+height: 506px;
+align-items: center;
+}
+
