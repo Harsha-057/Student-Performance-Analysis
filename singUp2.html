@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Analysis - Sign Up</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>   
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="signUpstyle2.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row no-gutters">
+            <div class="col-md-6 bg-primary text-white p-5 d-flex flex-column justify-content-center">
+                <div class="text-center">
+                    <h2 class=" bg-white text-dark rounded-pill heading">Student Performnace Analaysis</h2>
+                    <h4 class="subheading">Welcome to Student Performance Analaysis</h4>
+                    <p class="para">We understand the value of Student Performance in shaping for success.</p>
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="image2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="image3.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="image4.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 p-5 d-flex align-items-center">
+                <div class="w-100">
+                    <div class="text-center mb-4">
+                        <h4>Sign up with Us</h4>
+                        <p>Empower your experience, sign up for account today</p>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label class="fw-bold" for="fullName">Full Name<span class="star">*</span></label>
+                            <input type="text" class="form-control" id="fullName" placeholder="ex. John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label class="fw-bold" for="email">Email<span class="star">*</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="ex. email@domain.com">
+                        </div>
+                        <div class="form-group">
+                            <label  for="phoneNumber">Phone Number<span class="star">*</span></label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <select class="custom-select">
+                                        <option value="+91">+91</option>
+                                        <option value="+1">+1</option>
+                                        <!-- Add other country codes as needed -->
+                                    </select>
+                                </div>
+                                <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter phone number">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password<span class="star">*</span></label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter password">
+                            <small class="form-text text-muted">
+                                <div class="password-criteria">
+                                    <span> <p> <i class='bx bxs-check-circle'></i> One lowercase character</p></span>
+                                    <span> <p> <i class='bx bxs-check-circle'></i> One uppercase character</p></span>
+                                    <span> <p> <i class='bx bxs-check-circle'></i> 8 characters minimum</p></span>
+                                    <span> <p><i class='bx bxs-check-circle'></i>  One number</p></span>
+                                    <span> <p> <i class='bx bxs-check-circle'></i> One special character</p></span>
+                                </div>
+                            </small>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Get started free</button>
+                        <div class="text-center mt-3">
+                            <p>Already have an account? <a href="#">Login</a></p>
+                        </div>
+                        <p class="text-center small">
+                            By registering for an account, you are consenting to our <a href="#">Terms of Service</a> and confirming that you have reviewed and accepted the <a href="#">Global Privacy Statement</a>.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
